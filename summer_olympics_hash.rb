@@ -3,7 +3,8 @@ def create_olympics_hash
  summer_olympics = {Sydney => 2000, Athens => 2004, Beijing => 2008, London => 2012}
 
 def add_a_key_value_pair
-  # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
+ summer_olympics = {Sydney => 2000, Athens => 2004, Beijing => 2008, London => 2012}
+ summer_olympics[1996]
 end
 
 def iterate_through_hash
