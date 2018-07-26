@@ -2,7 +2,7 @@
 def create_olympics_hash
 summer_olympics = {}
 # {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
-summer_olympics[2000]= :Sydney
+summer_olympics["2000"]= :Sydney
 summer_olympics["2004"]= :Athens
 summer_olympics["2008"]= :Beijing
 summer_olympics["2012"]= :London
