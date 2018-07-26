@@ -4,12 +4,13 @@ def create_olympics_hash
 
 def add_a_key_value_pair
  summer_olympics = {Sydney => 2000, Athens => 2004, Beijing => 2008, London => 2012}
- summer_olympics[Atlanta] = 1996
+ new_place= Atlanta
+ new date= 1996
+ summer_olympics[new_place] = 1996
 end
 
 def iterate_through_hash
-  # Implement this method so that it iterates over the hash created in add_a_key_value_pair
-  # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
+  summer_olympics.each do |
 end
 
 def iterate_through_keys
