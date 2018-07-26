@@ -2,15 +2,15 @@
 def create_olympics_hash
 summer_olympics = {}
 # {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
-summer_olympics[:Sydney]= 2004
-summer_olympics["2004"]= :Athens
-summer_olympics["2008"]= :Beijing
-summer_olympics["2012"]= :London
+summer_olympics[:Sydney]= 2000
+summer_olympics[:Athens]= 2004
+summer_olympics[:Beijing]= 2008
+summer_olympics[:London]= 2012
  end
 puts create_olympics_hash
 def add_a_key_value_pair
  summer_olympics = {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
- summer_olympics[1996]= :Atlanta
+ summer_olympics[:Atlanta]= 1996
  end
 
 def iterate_through_hash
