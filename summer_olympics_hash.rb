@@ -21,11 +21,11 @@ def iterate_through_hash
   end
 end
 
-def iterate_through_keys
-   summer_olympics = {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
-   summer_olympics.each do |upcased_cities|
-     upcased_cities.upcase
-     puts upcased_cities
-   end
-end
-puts iterate_through_keys
+# def iterate_through_keys
+#   summer_olympics = {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
+#   summer_olympics.each do |upcased_cities|
+#     upcased_cities.upcase
+#     puts upcased_cities
+#   end
+# end
+# puts iterate_through_keys
