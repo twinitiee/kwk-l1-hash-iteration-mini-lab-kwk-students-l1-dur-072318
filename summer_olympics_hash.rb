@@ -26,5 +26,6 @@ def iterate_through_keys
    summer_olympics.each do |upcased_cities|
      upcased_cities.upcase
      puts upcased_cities
+   end
 end
 puts iterate_through_keys
