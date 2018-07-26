@@ -26,4 +26,4 @@ def iterate_through_keys
      upcased_cities.upcase
      puts upcased_cities
 end
-iterate_through_keys
+puts iterate_through_keys
