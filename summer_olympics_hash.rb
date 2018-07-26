@@ -15,7 +15,8 @@ def add_a_key_value_pair
  puts add_a_key_value_pair
 
 def iterate_through_hash
-  
+   summer_olympics = {:Sydney => 2000, :Athens => 2004, :Beijing => 2008, :London => 2012}
+  summer_olympics.each do
 end
 
 def iterate_through_keys
