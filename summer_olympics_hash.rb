@@ -5,7 +5,7 @@ summer_olympics = {}
 summer_olympics["2000"]= :Sydney
 summer_olympics["2004"]= :Athens
 summer_olympics["2008"]= :Beijing
-summer_olympics["2012"] = :London
+summer_olympics["2012"]= :London
  end
 puts create_olympics_hash
 def add_a_key_value_pair
